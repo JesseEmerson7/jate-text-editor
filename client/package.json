@@ -1,10 +1,10 @@
 {
   "name": "JATE",
   "scripts": {
-    "heroku-prebuild": "npm install --save-dev",
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
-    "start": "webpack --watch"
+    "start": "webpack --watch",
+    "heroku-prebuild": "npm install --save-dev"
   },
   "author": "2U",
   "license": "UNLICENSED",
