@@ -1,10 +1,10 @@
 {
   "name": "JATE",
   "scripts": {
+    "heroku-prebuild": "npm install --dev",
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
-    "start": "webpack --watch",
-    "heroku-prebuild": "npm install --save-dev"
+    "start": "webpack --watch"
   },
   "author": "2U",
   "license": "UNLICENSED",
@@ -27,9 +27,5 @@
   "dependencies": {
     "code-mirror-themes": "^1.0.0",
     "idb": "^6.1.2"
-  },
-  "engines" : { 
-    "npm" : "9.5.1",
-    "node" : "v18.16.0"
   }
 }
