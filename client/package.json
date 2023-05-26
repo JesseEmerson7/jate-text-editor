@@ -27,5 +27,9 @@
   "dependencies": {
     "code-mirror-themes": "^1.0.0",
     "idb": "^6.1.2"
+  },
+  "engines" : { 
+    "npm" : "9.5.1",
+    "node" : "v18.16.0"
   }
 }
