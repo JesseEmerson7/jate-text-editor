@@ -1,7 +1,8 @@
 {
   "name": "JATE",
   "scripts": {
-    "heroku-prebuild": "npm install --dev",
+    "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false; export NODE_ENV=; NPM_CONFIG_PRODUCTION=false NODE_ENV=development npm install --only=dev --dev",
+    "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;",
     "dev": "webpack-dev-server",
     "build": "webpack --mode production",
     "start": "webpack --watch"
